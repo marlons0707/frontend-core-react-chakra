@@ -1,12 +1,11 @@
-import { Provider } from '@/components/ui/provider'
+import { Provider } from '@/app/providers/ChakraProvider'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Provider>
-      <App />
+      <h1>Hello World</h1>
     </Provider>
   </StrictMode>,
 )

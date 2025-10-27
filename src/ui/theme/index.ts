@@ -1,0 +1,1 @@
+// Para extender el tema de Chakra UI
