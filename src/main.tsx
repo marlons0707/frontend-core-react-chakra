@@ -1,11 +1,11 @@
-import { Provider } from '@/app/providers/ChakraProvider'
+import { AppChakraProvider } from '@/app/providers/AppChakraProvider'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Provider>
-      <h1>Hello World</h1>
-    </Provider>
+    <AppChakraProvider>
+      <h1>Aquí va el futuro dashboard</h1>
+    </AppChakraProvider>
   </StrictMode>,
 )

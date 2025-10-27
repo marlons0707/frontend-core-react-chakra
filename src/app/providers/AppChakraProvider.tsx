@@ -6,7 +6,7 @@ import {
   type ColorModeProviderProps,
 } from "../../ui/components/ColorMode"
 
-export function Provider(props: ColorModeProviderProps) {
+export function AppChakraProvider(props: ColorModeProviderProps) {
   return (
     <ChakraProvider value={defaultSystem}>
       <ColorModeProvider {...props} />
