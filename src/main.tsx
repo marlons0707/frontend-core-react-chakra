@@ -1,11 +1,13 @@
-import { AppChakraProvider } from '@/app/providers/AppChakraProvider'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { AppChakraProvider } from '@/app/providers/AppChakraProvider'
+import { RouterProvider } from 'react-router-dom'
+import { route } from '@/app/routes'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <AppChakraProvider>
-      <h1>Aquí va el futuro dashboard</h1>
+      <RouterProvider router={route} />
     </AppChakraProvider>
   </StrictMode>,
 )

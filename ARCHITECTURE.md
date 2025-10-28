@@ -7,9 +7,11 @@
     TypeScript
     React
         react-dom
+        react-router-dom
 
 * UI
     Chakra UI (Chakra UI v3)
+    Emotion
     React Icons
 
 * Arquitectura / Estructura de carpetas
